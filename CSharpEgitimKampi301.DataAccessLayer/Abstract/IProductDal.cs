@@ -1,0 +1,13 @@
+﻿using CSharpEgitimKampi301.EntityLayer.Concrete;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
+{
+    public interface IProductDal : IGenericDal<Product>   // Product sınıfı için IGenericDal dan miras alacak ve Product sınıfım CRUD işlemleri için hazır hale gelmiş olacak.
+    {
+    }
+}
