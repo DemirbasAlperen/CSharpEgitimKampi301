@@ -3,11 +3,11 @@
 Merhabalar. Bu repomda Murat Yücedağ'ın YouTube kanalında vermiş olduğu C# Kampı eğitimi boyunca yapmış olduğu 301 seviye dersler ve projeler bulunmaktadır. Aşağıda her ders içerisinde yapılan projelerin teknik detayları bulunmaktadır. Yeni dersler ve projeler de yapıldıkça eklenecektir. :blush: 
 
 
-# :sunny: Proje 11 (301) > OOP Modülü: C# ile N Katmanlı Mimari Entity Layer
-Bu projede; ```Console.WriteLine();``` ve ```Console.Write();``` kullanarak ekrana yazı yazdırma ve bu iki metot arasındaki kullanım farkını öğrenmiş oldum. Değişkenler konusuna giriş yapıldı, string ve int değişkenleri öğrenildi. Bu değişkenler üzerinden Rezarvasyon Kartı ve Restoran Menü Fiyatı gibi örnek projeler yapıldı. Ayrıca ilk projede region ve endregion kullanımını da görmüş oldum.
+# :sunny: Proje 11 (301) ## OOP Modülü: C# ile N Katmanlı Mimari Entity Layer
+Bu projede; 301 seviye derslere giriş yapıldı. Boş bir solution açarak projemizi 4 katmandan oluşturduk. EntityLayer katmanı; projeye ait entityler tanımlanacak, DataAccessLayer; proje ile ilgili veritabanı işlemleri yazılacak, BusinessLayer; logic sorgulamaları yapılacak, Presentation / UI Layer (Kullanıcı ara yüzü); lk üç katmanda yapılan işlemler kullanıcıya gösterilecek. Öncelike EntityLayer katmanına Concrete klasörü açıp içerisine sınıflarımızı tanımladık. Bu sınıflar içerisinde property ler olacak, bu propertyler de sql de ilgili tablonun sütunlarına dönüşüyor olacak. Sonrasında Erişim Belirleyiciler hakkında bilgiler verildi. Field-Veriable-Property bunları ve bunlar arasındaki fark anlatıldı.   
 
-# :sunny: Proje 12 (301)
-Bu projede; değişkenler konusuna devam edildi. Double ve char değişkenleri öğrenildi. Nasıl kullanılması ve hangi durumlarda kullanılması gerektiği öğrenildi. Bu değişkenler ile ilgili fiyat listesi gibi örnekler yapıldı. Değişkenler için klavyeden veri girişi (```Console.ReadLine()```) nasıl yapılır öğrenildi. Ayrıca klavyeden yapılan veri girişi string bir değişken değilse kullandığımız değişken türüne göre ```degiskenTürü.Parse(Console.ReadLine())``` işleminin yapılması gerektiği öğrenildi. 
+# :sunny: Proje 12 (301) ## OOP Modülü: Data Access Katmanı ve Context Sınıfı
+Bu projede;  
 
 # :sunny: Proje 13 (301)
 Bu projede; If - Else karar yapıları, mod işlemleri, Switch-Case yapısı tamamlandı. Bu başlıklar altında örnek projeler yapıldı. Örneğin Switch-Case yapısı kullanarak hesap makinesi örneği yapıldı.
