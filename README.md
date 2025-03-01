@@ -23,3 +23,5 @@ Bu projede; Entity Framework konusuna devam ettik. CSharpEgitimKampi301.EFProjec
 
 # :sunny: Proje 17 (301) Entity Framework Metotları ve Linq Sorgular
 Bu projede; Entity Framework konusuna devam ettik. CSharpEgitimKampi301.EFProject projemiz içinde FrmStatistic isimli yeni bir form dosyası açıyoruz. Form tasarımnı yaparken internet üzerinden bir renk paleti kullandık. Form içerisine 12 tane panel ekledik. Kod içerisinde her bir panel işin yapılan işlemler açıklandı. Bu arada kodu çalıştırdığımızda virgüllü sayıların virgülden sonra iki basamağının gelmesi için ToString() metodu içine "F2" yazdım ve sorun çözüldü. 
+
+/assets/images/FrmStatistic.png
