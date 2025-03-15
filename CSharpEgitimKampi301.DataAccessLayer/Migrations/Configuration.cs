@@ -10,6 +10,7 @@
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
+            // AutomaticMigrationDataLossAllowed = true; // Veri kaybına izin ver
         }
 
         protected override void Seed(CSharpEgitimKampi301.DataAccessLayer.Context.KampContext context)

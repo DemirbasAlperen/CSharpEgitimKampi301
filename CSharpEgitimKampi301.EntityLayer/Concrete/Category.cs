@@ -10,14 +10,14 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
     {
         #region Field-Property-Veriable
 
-        int x;   // field
+        //int x;   // field
 
-        public int y { get; set; }  // property
+        //public int y { get; set; }  // property
 
-        void test()   // veriable
-        {
-            int z;
-        }
+        //void test()   // veriable
+        //{
+        //    int z;
+        //}
 
         /*
 

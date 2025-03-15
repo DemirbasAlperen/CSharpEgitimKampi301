@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,5 +19,9 @@ namespace CSharpEgitimKampi301.EntityLayer.Concrete
         // virtual : asp.net core da kullanılmıyor artık ama .net framework projelerinde hala var.
 
         public List<Order> Orders { get; set; }    // Order sınıfı ile çoğul olarak ilişki kuruldu. Ürün tablosu bir listeye dönüşmüş oldu
+
+        // Bu kısım olmadı
+        //[NotMapped]
+        //public string CategoryName { get; set; }    // EfProductDal için eklendi
     }
 }

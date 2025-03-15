@@ -9,5 +9,6 @@ namespace CSharpEgitimKampi301.DataAccessLayer.Abstract
 {
     public interface IProductDal : IGenericDal<Product>   // Product sınıfı için IGenericDal dan miras alacak ve Product sınıfım CRUD işlemleri için hazır hale gelmiş olacak.
     {
+        List<Object> GetProductsWithCategory();
     }
 }
