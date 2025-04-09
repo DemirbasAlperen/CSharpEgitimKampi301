@@ -12,16 +12,28 @@ Bu projede; Bir önceki derste eklediğimiz sınıflar arasında ilişki kurduk.
 # :sunny: Proje 13 (301) OOP Modülü: Migration İşlemleri ve Abstract Interfaceler
 Bu projede; Migration işlemleri yapıldı. Bu işlem için Öncelikle başlangıç projesi olarak PresentationLayer seçili olmalı, Package Manager Console açılır, burada Default project kısmı var buradan DataAccessLayer seçilir ve migration komutlarını yazdık. DataAccessLayer katmanına Abstract klasörü açtık ve içine Interfaceler lerimizi tanımladık. Sonrasında miras alma şlemlerini yapıp CRUD işlemleri için hazır hale getirdik.
 
-# :sunny: Proje 14 (301) Orm Yapısı: Entity Framework DbFirst ve Model Oluşturma
+# :sunny: Proje 14 (401) Orm Yapısı: Entity Framework DbFirst ve Model Oluşturma
 Bu projede; Katmanlı mimari projesine ara verip Entity Framework konusuna geçtik. Entity Framework bir Orm yapısıdır. Bunun için CSharpEgitimKampi301.EFProject isimli yeni bir proje açtık ve Sql de gerekli tablolar oluşturduk. Sonrasında projeye dönüp yeni bir item açarak ADO.Net Entity Data Model yapısını seçiyoruz. Böylece DbFirst yaklaşımıyla hazır olan bir veritabanını model olarak Visual Studio ya entegre etmiş olduk. 
 
-# :sunny: Proje 15 (301) Entity Framework Metotları ile Proje Uygulaması
+# :sunny: Proje 15 (401) Entity Framework Metotları ile Proje Uygulaması
 Bu projede; Entity Framework konusuna devam ettik. Form yapısı kullanarak Form1 isimli bir proje yaptık yaptık. Form yapısının araçlarını kullanarak form tasarımı üzerinde değişiklik yapmayı öğrendim. Sql'deki Rehber tablosuna göre işlemler yapıldı. Form içerisine Listele, Ekle, Sil, Güncelle, Id'ye Göre Getir butonları ekledik ve bu butonlara arka planda kod yazarak Sql ile ilişki kurduk.
 
-# :sunny: Proje 16 (301) Entity Framework: Tur Projesi Location İşlemleri
+# :sunny: Proje 16 (401) Entity Framework: Tur Projesi Location İşlemleri
 Bu projede; Entity Framework konusuna devam ettik. CSharpEgitimKampi301.EFProject projesi içine FrmLocation isimli yeni bir form açarak form tasarımını düzenledik. Bu formu çalıştırabilmem için proje dosyası içinde bulunan Program.cs dosyasını açıyorum ve Application.Run(new Form1()); yazan kısımdan Form1 kısmını silip kendi forms dosyamın(FrmLocation) adını yazıyorum. Bu sefer Sql de yazdığımız Location talosu üzerinden verileri çektik. Silme ve Güncelleme işlemleri için Id kullandık.
 
-# :sunny: Proje 17 (301) Entity Framework Metotları ve Linq Sorgular
+# :sunny: Proje 17 (401) Entity Framework Metotları ve Linq Sorgular
 Bu projede; Entity Framework konusuna devam ettik. CSharpEgitimKampi301.EFProject projemiz içinde FrmStatistic isimli yeni bir form dosyası açıyoruz. Form tasarımnı yaparken internet üzerinden bir renk paleti kullandık. Form içerisine 12 tane panel ekledik. Kod içerisinde her bir panel işin yapılan işlemler açıklandı. Bu arada kodu çalıştırdığımızda virgüllü sayıların virgülden sonra iki basamağının gelmesi için ToString() metodu içine "F2" yazdım ve sorun çözüldü. 
 
 ![FrmStatistic](https://github.com/DemirbasAlperen/CSharpEgitimKampi301/blob/master/FrmStatistic.png?raw=true)
+
+# :sunny: Proje 18 (301) EntityState Komutları, Generic Repository Sınıfı ve Ef Sınıfları
+Bu projede; Daha önceden 14. derste yarım bıraktığımız katmanlı mimariye geçiş yapıyoruz. Entity state(varlık sınıflarının mevcut durumunu bildirmektedir) konusu hakkında bilgilendirme yapıldı. Entity ye özgü olmayan metotlar(ekle, sil, güncelle, listele, id ye göre getir) ve entity ye özgü metotlar(içinde a harfi geçen kullanıcıları listeleme) hakkında bilgiler verildi. Ayrıca EfAdminDal için entity ye özgü metot tanımlamış olduk.
+
+# :sunny: Proje 19 (301) Business Katmanı ve Logic Kurallar
+Bu projede; Business katmanı(iş mantığı katmanı) hakkında bilgiler verildi. Business katmanı: örneğin Customer entity si içinde sembol olmamasını, karakter uzunluğunu veya yetki kontrolünü bu katmanda yapabiliriz. Bir e ticaret uygulamasında Business Katmanı; kullanıcının bakiyesini kontrol eder, ürünün stokta olup olmadığını kontrol eder, ödeme işlemini başlatır gibi örnekler verebiliriz. Business katmanında Crud işlemlerinin Interface olarak tutulmasını sağladık böylece presentation katmanı ile arasında bir köprü kurulmuş olacak. Ayrıca Business katmanı için; CRUD işlemlerinin asıl bağlı olduğu mekanizma olan DataAccessLayer katmanındaki ilgili yapıyı buraya çağırarak Dependency Injection işlemini yapmış olduk.
+
+# :sunny: Proje 20 (301) Dependency Injection(DI)
+Bu projede; Dependency Injection kullanım yerleri, türleri, faydaları hakkında bilgiler verildi. Dependency Injection; .net framework de kullanılıyor fakat .net core da daha fazla kullanıldığını öğrenmiş oldum. Biz kendi projemizde Constructor Injection kullandık. FrmCategory isimli form sayfası açarak ekle, sil, Güncelle, id ye göre getir butonlarını ekleyip bu butonların arka plan kodlarını yazdık.  
+
+# :sunny: Proje 21 (301) Entitye Özgü Metot Yazmak
+Bu projede; Presentation katmanında FrmProduct isimli yeni bir form ekledik ve form arayüzünü düzenledik. Listele butonu için kodları yazıp çalıştırdığımızda fazladan Category isimli bir sütun gelmişti bunu düzeltmek için entity ye özgü metot yazdık.
